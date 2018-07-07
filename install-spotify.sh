@@ -40,4 +40,4 @@ StartLimitBurst=20
 WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
-systemctl enable --now spotifyd.service
+systemctl enable spotifyd.service
